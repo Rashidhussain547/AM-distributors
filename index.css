@@ -1,0 +1,612 @@
+
+                                                        /**HEADER WORK START**/
+.navbar{
+    margin-left: 200px;
+}
+                                              
+.navbar-nav{
+    font-size: 16px;
+    font-family: "Arial", sans-serif;
+    font-weight: 300;
+}
+.navbar-nav li .sp{
+    color: #4C4C4C;
+    margin-left: 30px;
+    transition: all ease 0.5s;
+}
+.navbar-nav li .sp:hover{
+    background-color:#4C4C4C;
+    color:white;  
+}
+.navbar-nav li a:hover{
+    background-color:#1cba9f;
+    color:white;  
+    transition: all ease 0.5s;
+}
+
+
+                                                        /**HEADER WORK END**/
+
+
+
+                                                /**HOME PAGE DISCRIPTION WORK START**/
+                                                 
+#home-sec{
+    margin-left: 200px;
+}
+#home-sec h3{
+    color: #223a66;
+    text-shadow: 0px 0px 0px rgb(0 0 0 / 30%);
+    font-weight: bold;
+}
+#home-sec p{
+    color: #727272;
+    word-spacing: 0.1cm;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+  .DL{
+      cursor: pointer;
+      margin-left: 30px;
+      transition: all ease 0.5s;
+  }
+  .DL i{
+      font-size: 30px;
+      margin-top: 5px;
+  }
+  .main{
+      background-color: #1cba9f;
+  }
+ 
+
+  /**  SLIDE IMAGE START  **/
+#content h4{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+  
+}
+#content{
+    padding-left: 150px;
+    margin-top: 100px;
+    color: #fff;
+}
+#content h2{
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+}
+.btn-1{
+    background-color: #223a66;
+    padding: 10px 10px 10px 10px;
+    border-radius: 30px;
+    color: #fff;
+    border: 2px solid #727272;
+    transition: all ease 0.5s;
+}
+.btn-1:hover{
+    background-color: transparent;
+    border-color: #223a66;
+    color: #223a66;
+    cursor: pointer;
+}
+@media screen and (max-width:700px) {
+    #home-sec{
+        margin-left: 0px;
+    }
+    #content{
+        padding-left: 20px;
+    }
+    .navbar{
+        margin-left: 0px;
+        justify-content: center;
+        text-align: center;
+    }
+    
+}
+
+/** SLIDE IMAGE END  **/
+
+                            /**START MID**/
+.mid{
+    text-align: center;
+}
+.mid-head{
+    color: #223a66;
+    font-weight: bold;
+    font-size: 40px;
+}
+.mid-sub-head{
+    color: #727272;
+}
+.mid-para{
+    color: #727272;
+}
+
+                            /**END MID**/
+
+
+                            /** START CARDS**/
+.main-2{
+    margin-top: 100px;
+    text-align: center;
+}
+.main-2-head{
+    color: #223a66;
+    font-weight: bold;
+    font-size: 40px;
+}
+.card{
+    color: #fff;
+}
+.card strong{
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 80px;
+}
+.card i{
+    font-size: 50px;
+}
+#card1{
+    width: 300px;
+    height: 530px;
+    padding-top: 40px;
+    background-color: #09C3BDCC;
+    border: none;
+    border-radius: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+#card2{
+    width: 300px;
+    height: 530px;
+    padding-top: 40px;
+    background-color: #195B96CC;
+    border: none;
+    border-radius: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    margin-left: 15px;
+}
+#card3{
+    width: 300px;
+    height: 530px;
+    padding-top: 40px;
+    background-color: #00cfcfcc;
+    border: none;
+    border-radius: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    margin-left: 30px;
+}
+#card4{
+    width: 300px; 
+    height: 530px;
+    padding-top: 40px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    margin-left: 30px;
+}
+
+@media screen and (max-width:700px) {
+    #card1{
+        margin-left: 0px;  
+        width: auto;
+    }
+    #card2{
+        margin-left: 0px;  
+        width: auto;
+    }
+    #card3{
+        margin-left: 0px;
+        width: auto;  
+    }
+    #card4{
+        margin-left: 0px;
+        width: auto;  
+    }
+    
+}
+
+                     /** PRODUCT IMAGES STAR**/
+
+.prod-head{
+    color: #223a66;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 100px;
+    text-align: center;
+}
+.prod-imgs{
+    cursor: pointer;
+}
+
+@media screen and (max-width:700px) {
+    .prod-imgs{
+          width: 450px;
+          margin-bottom: 5px;
+    }
+    
+}
+
+table{
+    color: #223a66;
+}
+
+                    /** PRODUCT IMAGES END**/
+
+
+
+                    /** BRAND START  **/
+.main-3{
+    background-color: #007bff;
+}
+.main-3 .row img{
+    margin-left: 50px;
+}
+.main-3 .row .carousel-img{
+    width: 100%;
+    margin-left: 270px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+@media screen and (max-width:700px) {
+    .main-3 .row .carousel-img{
+          margin-left: 0px;
+    }
+    
+}
+
+                                            /**FOOTER START**/
+
+.footer{
+    background-color: #2e2d2d;
+    color: #fff;
+}
+.footer ul li {
+    list-style: none;
+    display: inline;
+    
+}   
+.cont{
+    color: green;
+}  
+.footer ul li a i{
+    font-size: 30px;
+}
+.fb{
+    color: #8a3ab9;
+}
+.fb:hover{
+    color: rgb(88, 34, 75)
+}
+.tw:hover{
+    color: #2c90fa;
+}
+.yt{
+    color: red;
+}
+.yt:hover{
+    color: rgb(248, 34, 34);
+}
+.li{
+    color: #0e76a8;
+}
+.li:hover{
+    color: #2f8cb8;
+}
+.wapp{
+    color: #28aa3e;
+}
+.wapp:hover{
+    color: #40b453;
+}
+.social-icons{
+    text-align: left;
+    margin-left: -40px;
+}
+
+@media screen and (max-width:700px) {
+    .footer{
+         text-align: center;
+    }
+    
+}
+@media screen and (max-width:700px) {
+    .social-icons{
+        text-align: center;
+    }
+    
+}
+
+
+
+
+
+
+                            /**                                ABOUT PAGE STYLING                         **/
+
+
+
+/**        CONTENT      **/
+
+#about-content{
+    margin-top: 100px;
+}
+#about-content img{
+    width: 550px;
+}
+#about-discriptR{
+    padding-left: 100px;
+}
+#about-content h1{
+    font-weight: bold;
+}
+#about-content h3{
+    font-weight: bold;
+}
+.ab-row{
+    margin-top: 100px;
+}
+#about-discriptR2 p{
+    color: #727272;
+}
+
+@media screen and (max-width:700px) {
+    #about-discriptR{
+        padding: 10px;
+    }
+    #about-content img{
+        width: 450px;
+        
+    }
+    
+}
+
+
+
+
+
+                   /**                                ABOUT PAGE STYLING END                        **/
+
+
+
+
+
+                   /**                                CAREER PAGE STYLING START                     **/
+
+
+
+
+ /** CAREER BG IMAGE START  **/                   
+#career-main{
+    width: 101%;
+    height: 60vh;
+    position: relative;
+    background: rgba(0,0,0,0.7) url("imgs/career/6298-woman_physician_holding_a_suture_needle_in-1200x628-Facebook-1200x628-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    opacity: 1;
+    background-attachment: fixed;
+}   
+#career-main h3{
+    text-align: center;
+    margin-top: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #fff;
+}                
+
+@media screen and (max-width:700px) {
+    #career-main h3{
+        margin-top: 25px;
+    }
+    
+}
+
+ /** CAREER BG IMAGE END  **/ 
+
+
+ /** CAREER BLOG DISCRIPTION  **/
+
+ #career-blog{
+     text-align: center;
+     margin-top: 50px;
+ }
+ #career-blog h2{
+     font-weight: bold;
+     color: #6EC1E4;
+ }
+ #career-blog p{
+     color: #727272;
+ }
+ #career-blog a{
+     line-height: 0pt;
+ }
+
+                    /**                                CAREER PAGE STYLING END                     **/
+
+
+
+
+
+                    /**                                CONTACT PAGE STYLING START                     **/
+
+
+
+
+/** CONTACT BG IMG START **/                    
+#contact-main{
+    width: 101%;
+    height: 60vh;
+    position: relative;
+    background: #188d7d url("imgs/contact/page-banner-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    opacity: 0.8;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+
+}
+#contact-main h3{
+    margin-top: 170px;
+    font-weight: bold;
+    font-size: 40px;
+}
+#contact-main p{
+    padding-left: 300px;
+    padding-right: 300px;
+}  
+
+@media screen and (max-width:700px) {
+    #contact-main h3{
+        margin-top: 70px;
+    }
+    #contact-main p{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    
+}
+
+/** CONTACT BG IMG END **/
+
+
+/** CONTACT DETAIL START **/
+#contct-detail{
+    margin-top: 100px;
+}
+#contct-detail p{
+    color: #727272;
+}
+#contct-detail a{
+    color: #727272;
+}
+#contct-detail a:hover{
+    text-decoration: none;
+    color: rgb(16, 92, 136);
+}
+#contct-detail h2{
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+#contct-detail h3{
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 2cm;
+}
+#contct-detail i{
+    font-size: 40px;
+    color: #1cba9f;
+}
+#contact-detail-2{
+    margin-top: 85px;
+}
+#mail{
+    margin-top: 65px;
+}
+@media screen and (max-width:700px) {
+    #contact-detail-2{
+        margin-top: 0px;
+    }
+    #mail{
+        margin-top: 0px;
+    }
+
+}
+
+/** CONTACT DETAIL END **/
+
+/**  MAP  **/ 
+
+#mapDiscription h2{
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#mapDiscription p{
+    color: #727272;
+}
+.map-container{
+    margin-top: 50px;
+    overflow:hidden;
+    position:relative;
+    height:0;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height: 100%;
+    width:100%;
+    position:absolute;
+    }
+                    /**                                CONTACT PAGE STYLING START                     **/
+
+
+
+
+                    /**                                TESTIMONIALS PAGE STYLING START               **/
+
+.t-row{
+    margin-top: 100px;
+}
+#discrp-box{
+    border: 1px solid #b8b8b8;
+}
+table #tr1{
+    border-bottom: 1px solid #b8b8b8;
+}
+table th{
+    font-size: 25px;
+    font-weight: bold;
+}
+table tr td p{
+    color: #727272;
+}
+table h5{
+    font-size: 18px;
+    font-weight: bold;
+    color: #686868;
+    margin-top: 10px;
+}
+table h5 span{
+    font-size: 14px;
+    font-weight: bold;
+    color: #9b9b9b;
+}
+
+
+
+
+                    /**                                TESTIMONIALS PAGE STYLING END               **/
+
+
+                    /**                                PRODUCT PAGE STYLING START               **/
+
+.pt-row{
+    margin-top: 100px;
+}  
+.card:hover{
+    cursor: pointer;
+}                 
+.card img{
+    padding: 10px;
+}
+.card .card-title{
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+}
